@@ -1,24 +1,43 @@
 import React from 'react'
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+
+      {/* <!-- Project Links --> */}
+      <h1>Projects</h1>
+      <a href="https://007krm.github.io/Day-Scheduler/">
+        <h2>Day Scheduler</h2>
+      </a>
+      <br />
+      <a href="https://007krm.github.io/Password-Generator-Homework/">
+        <h2>Password Generator</h2>
+      </a>
+      {/* <!-- Group projects --> */}
+      <h1>Group Project</h1>
+      <a href="https://emacartoon.github.io/Dinner-with-K-T/">
+        <h2>Dinner with Taylor & Kanye</h2>
+      </a>
+
+      <a href="https://page-turner-mj-ed-kr.herokuapp.com/">
+        <h2>Page Turner</h2>
+      </a>
+
+      <h1>Hobbies</h1>
+      <ul>
+        <h2>
+          {" "}
+          <li>I enjoy fishing and camping.</li>
+          <li>I like trying out new restraunts.</li>
+          <li>I spend my free time playing video games.</li>
+          <li>I travel any time I can.</li>
+        </h2>
+      </ul>
+      <Footer/>
     </div>
   );
 }

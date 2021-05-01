@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+body { 
+  background-color: black;
+  text-align: center;
+}
+
+/* links */
+a {
+  font-family: fantasy;
+  color: rgb(30, 255, 0);
+  text-align: center;
+  
+}
+/* h1 Titles */
+h1 {border: blueviolet solid;
+  color: rgb(255, 255, 255);
+}
+/* links */
+li{ 
+  color: rgb(30, 255, 0);
+}
+/* paragraphs */
+p {
+  color: rgb(30, 255, 0);
+}
