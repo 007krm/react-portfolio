@@ -61,3 +61,7 @@ li{
 p {
   color: rgb(30, 255, 0);
 }
+
+.myName {
+  font-size: 3rem;
+}

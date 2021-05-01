@@ -1,13 +1,17 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Body from './components/Body';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+   
      <Header/>
-
+     <Body/>
       {/* <!-- Project Links --> */}
       <h1>Projects</h1>
       <a href="https://007krm.github.io/Day-Scheduler/">
