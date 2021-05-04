@@ -1,28 +1,22 @@
 import React from 'react'
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
-
+import { Nav, Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 function Header() {
     return (
-        <div>
+        // <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand className = "myName" href="#home">Kevin Rayo Meza</Navbar.Brand>
+                <Link className = "myName" to= "/">Kevin Rayo Meza</Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    {/* <Nav.Link href="#features">Features</Nav.Link> */}
-                    {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown"> */}
-                        {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-                    {/* </NavDropdown> */}
                     </Nav>
                     <Nav>
-                    <Nav.Link href="#deets">Projects</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Contact
-                    </Nav.Link>
+                    <Link id = "contact"className = "myProjects" to= "/contact">Contact</Link>
+                    <Link className = "myProjects" to= "/projects">Projects</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+        // </div>
     )
 }
 

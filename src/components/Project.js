@@ -1,13 +1,14 @@
 import React from 'react'
+import { ListGroup } from 'react-bootstrap'
 
-function Project() {
+function Project(props) {
     return (
-        <>
-            <a href="https://007krm.github.io/Day-Scheduler/">
-             <h2>Day Scheduler</h2>
-            </a>
-            <br />
-        </>
+        <div>
+            <ListGroup.Item className = "allLinks" action href={props.projectUrl}>
+                {props.name}
+            </ListGroup.Item>
+  
+        </div>
     )
 }
 
