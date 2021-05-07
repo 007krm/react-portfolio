@@ -12,8 +12,9 @@ a {
 }
 /* h1 Titles */
 h1 {
-  border: rgb(76, 0, 255) solid;
+  border: rgb(30, 255, 0) double;
   color: rgb(243, 0, 0);
+  padding: 10px;
 }
 /* links */
 li {
