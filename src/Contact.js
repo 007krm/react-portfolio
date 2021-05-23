@@ -4,10 +4,10 @@ function Contact() {
     return (
         <div>
             <h1>HIRE ME</h1>
-            <a href="https://github.com/007krm">
+            <a href="https://github.com/007krm" target="_blank">
             <h2>Github Profile</h2>{" "}
           </a>
-          <a href="https://www.linkedin.com/in/kevin-rayo-meza-15994a206/">
+          <a href="https://www.linkedin.com/in/kevin-rayo-meza-15994a206/" target="_blank">
           <h2>linked in</h2>
         </a>
 
