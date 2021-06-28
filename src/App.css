@@ -1,39 +1,49 @@
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   text-align: center;
 }
+
 
 /* links */
 a {
   font-family: fantasy;
-  color: rgb(30, 255, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   
 }
+
+a :hover{
+  color: red;
+}
 /* h1 Titles */
 h1 {
-  border: rgb(30, 255, 0) double;
+  border: rgb(80, 255, 118) double;
   color: rgb(243, 0, 0);
   padding: 10px;
 }
 /* links */
 li {
-  color: rgb(30, 255, 0);
+  color: rgb(80, 255, 118);
 }
 /* paragraphs */
 p {
-  color: rgb(30, 255, 0);
+  color: black;
 }
 
 .myName {
   font-size: 4rem;
 }
 
+nav :hover{
+  color: rgb(80, 255, 118);
+
+}
 .myProjects {
   font-size: 2rem;
 }
 
 .aboutMe {
+  color:black;
   font-family: cursive;
   font-size: 3rem;
 }
@@ -44,14 +54,15 @@ p {
 
 .allLinks {
   font-size: 2rem;
-  color: rgb(30, 255, 0);
+  color: rgb(80, 255, 118);
   background-color: black;
 }
 
 .bodyText {
   font-size: 2rem;
-  background-color: black;
+  
 }
+
 :hover {
-  color: rgb(243, 0, 0);
+  color: rgb(80, 255, 118);
 }
