@@ -15,7 +15,7 @@ function Body() {
               <Card.Body>
                 <Card.Title className="aboutMe">About Me</Card.Title>
                 <Card.Text className="bodyText">
-                            I used to work in the medical field but I decided to change careers to
+                            I worked in the medical field but I decided to change careers to
                             learn how to become a full stack developer.
                             I'm curently attending a bootcamp in the University of Arizona
                             that will teach me all the skills.
